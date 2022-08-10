@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+{% block title %}Reverso Solutions{% endblock title %}
+
+{% block body %}
+<style>
+  {% comment %} .dropbtn {
+    padding:16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    padding: 10px 100px;
+    position: relative;
+    overflow: auto;
+    z-index: 1;
+  }
+  
+ 
+  .show {display: block;}
+  hr{
+    border:6px solid grey;
+    border-radius: 50px;
+  }
+   {% endcomment %}
+  </style>
+<div></div>
+<div class="container15"style="margin:7% 3%;background-color:#ddd;">
+  
+  
+  <div class="row"style="margin:20px;">
+    <div class="col-sm-6">
+        <img src="../static/img/contact.jpg" width="100%">
+
+      
+    </div>
+    <div class="col-sm-6" style="">
+      <br><h3>CONTACT US</h3>
+      
+<div class="fee">
+    <form action="/action_page.php">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="fname" placeholder="Your name..">
+  
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your Email ID..">
+  
+      <label for="phone">Phone</label>
+      <input type="number" id="phone" name="phone" placeholder="Your Contact No. ..">
+
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" placeholder="Your City..">
+<br>
+      <label for="interest">Interested in</label>
+    <select id="iterest" name="iterest">
+      <option value="services">Please-select the required services</option>
+      <option value="training">Training and Placement</option>
+      <option value="web">Web Solution Services</option>
+      <option value="virtual">Virtual Assistant Services</option>
+      <option value="staff">Staffing Services</option>
+    </select>
+    <br><br>
+    <label for="msg">Your Message</label>
+    <textarea>Some text...</textarea>
+    <br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  
+    </div>
+      </div>
+
+      <div class="container11">
+  
+ 
+        <div class="social">
+       <i class="fa-brands fa-facebook-f"style="font-size: 50px;color:white;"></i>&nbsp;&nbsp;
+       <i class="fa-brands fa-linkedin-in"style="font-size: 50px;color:white;"></i>&nbsp;&nbsp;
+       <i class="fa-brands fa-instagram"style="font-size: 50px;color:white;"></i>&nbsp;&nbsp;
+       <i class="fa-brands fa-twitter"style="font-size: 50px;color:white;"></i>
+        </div>
+        </div>
+</div>
+
+<div class="container16">
+<footer>
+    <h5 style="padding:50px 60px">GET IN TOUCH</h5>
+    <i class="fa-solid fa-house-chimney"style="margin-left:50px;"></i>G-29 Lower Ground Floor, Lajpat Nagar- 2, Delhi 110024<br><br>
+    <i class="fa-solid fa-phone-flip" style="margin-left:50px;"></i>+91- 9620020759, +91- 9742151668<br><br>
+    <i class="fa-solid fa-envelope" style="margin-left:50px;"></i>info@reversosolutions.com
+  </footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+{% comment %} script {% endcomment %}
+
+{% endblock %}
